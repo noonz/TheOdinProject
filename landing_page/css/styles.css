@@ -1,0 +1,162 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.top-section,
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top-section .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text {
+  padding: 0;
+  margin: 0;
+}
+
+.top-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+  max-height: 300px;
+  width: auto;
+}
+
+.cards,
+.content-section-one {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+
+.content-section-one .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  flex-direction: row;
+  gap: 32px;
+}
+
+.card {
+  border: 1px solid #3882F6;
+  box-shadow: 2px 4px 16px rgba(172, 149, 149, 0.06);
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  font-weight:600;
+}
+
+.content-section-two {
+  background-color: #E5E7Eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote-content {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 26px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.signature {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.content-section-three {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-signup {
+  height: 100px;
+  border: 1px solid #3882F6;
+  box-shadow: 2px 4px 16px rgba(172, 149, 149, 0.06);
+  border-radius: 12px;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+}
+
+.content-text {
+  padding-left: 32px;
+  padding-right: 32px;
+  color: white;
+}
+
+.content-text .title-text {
+  font-weight: bold;
+}
+
+.signup-btn {
+  padding: 32px;
+  color: #3882F6;
+}
+
+.signup-btn button {
+  background-color: #3882F6;
+  border-color: white;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 16px;
+}
+
+.footer {
+  height: 50px;
+}
