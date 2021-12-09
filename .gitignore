@@ -1,2 +1,4 @@
 .DS_STORE
-
+exercises/javascript/node_modules/
+exercises/javascript/.vscode
+.vscode
