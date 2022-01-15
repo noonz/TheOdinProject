@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+.header-style {
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+.header-title-style {
+    padding: 16px;
+    font-size: 64px;
+    color: white;
+    font-family: monospace;
+}
