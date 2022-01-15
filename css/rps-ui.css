@@ -1,11 +1,14 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
 }
-.header {
-    padding: 8px;
-    margin: 8px;
+.header-style {
     background-color:blue;
+    display: flex;
+    justify-content: center;
+}
+.header-title-style {
+    padding: 16px;
+    font-size: 64px;
+    color: white;
+    font-family: monospace;
 }
