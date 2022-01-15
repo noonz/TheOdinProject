@@ -1,6 +1,13 @@
 body {
     margin: 0;
     background-color: lightgrey;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-container-style {
+    flex: 1 0 auto;
 }
 .header-style {
     background-color:black;
@@ -13,3 +20,10 @@ body {
     color: white;
     font-family: monospace;
 }
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    color: white;
+  }
